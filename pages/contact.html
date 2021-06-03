@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- html in the head is not rendered on the page -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrew Fulton | Contact</title>
+    <link rel="stylesheet" href="../css/style.css"
+        integrity="sha512-KLh37nmJ+o32izKaToCwNXwrJ2A85JpqbpxHYC90uKvzXh3gYAKty/U0JY7O/bylbH1HQqKQoCWBKrsLwPaQvA==" />
+    <link rel="shortcut icon" href="../img/icons/favicon.ico" />
+</head>
+<!-- html in the body is rendered on the page -->
+
+<body>
+    <!-- Header content to appear at the top of every page -->
+    <header>
+        <h1>Andrew Fulton</h1>
+        <!-- navbar to appear at the top of every page -->
+        <nav>
+            <label class="hamburger" for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger" role="button" />
+            <div class="nav-items">
+                <a class="nav-button" href="../index.html">Home</a>
+                <a class="nav-button" href="about.html">About</a>
+                <a class="nav-button" href="projects.html">Projects</a>
+                <a class="nav-button" href="blog.html">Blog</a>
+                <a class="active nav-button" href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <!-- Section to format left margin 25% for tablet view -->
+    <section class="body-content">
+        <!-- Page Name -->
+        <h2 class="page-name">Contact Me</h2>
+        <!-- Flexbox for Contact icons to appear to the left on larger screens -->
+        <section id="contact-flex">
+            <!-- Contact Icons -->
+            <section class="icon-flex" id="contact-icons">
+                <figure class="icon1">
+                    <a href="https://twitter.com/theandrewfulton" target="_blank"><img class="icon"
+                            src="../img/icons/twitter.svg" alt="Twitter" />
+                        <p>Twitter</p>
+                    </a>
+                </figure>
+                <figure class="icon2">
+                    <a href="mailto:theandrewfulton@gmail.com?subject=Hello&body=Message"><img class="icon"
+                            src="../img/icons/gmail.svg" alt="Email" />
+                        <p>Email</p>
+                    </a>
+                </figure>
+                <figure class="icon1">
+                    <a href="https://www.linkedin.com/in/andrew-fulton-a713941b0/" target="_blank"><img class="icon"
+                            src="../img/icons/linkedin.svg" alt="LinkedIn" />
+                        <p>LinkedIn</p>
+                    </a>
+                </figure>
+            </section>
+            <!-- webform -->
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" value="John" /><br />
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" value="Smith" /><br />
+                <label for="email">Email address:</label>
+                <input type="text" id="email" name="email" value="name@example.com" /><br />
+                <label for="message">Your message:</label>
+                <textarea name="message" id="message">Hello there!</textarea><br /><br />
+                <input id="submit" class="link-button" type="submit" value="Submit" />
+            </form>
+        </section>
+        <!-- Footer content to appear at the bottom of every page-->
+        <footer>
+            <p>Copyright &#169; 2020 Andrew Fulton</p>
+        </footer>
+    </section>
+</body>
+
+</html>
