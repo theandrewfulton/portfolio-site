@@ -1,7 +1,7 @@
 /* Colour Palette - From https:/*coolors.co/0b090a-161a1d-660708-a4161a-ba181b-050b61-105e7f-1c2f4a-d3d3d3-ffffff */
 /* SCSS HEX */
 /* Import Fonts from Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400;500;600;700");
 /* General Heading Styling */
 /* Name in Heading */
 h1 {
@@ -16,13 +16,13 @@ h1 {
 h2,
 h3,
 h4 {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Amiri", Georgia, serif;
   text-align: center;
 }
 
 /* General Anchor Styling (particularly for inline links and link buttons) */
 a {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Amiri", Georgia, serif;
   text-decoration: none;
 }
 
