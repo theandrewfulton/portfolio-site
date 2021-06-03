@@ -498,19 +498,5 @@ textarea {
     width: 130px;
     text-align: right;
   }
-  /* Move icons to the side */
-  #contact-flex {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  /* Make icons vertical */
-  #contact-icons {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
 }
 /*# sourceMappingURL=style.css.map */

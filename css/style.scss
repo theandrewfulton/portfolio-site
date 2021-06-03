@@ -386,13 +386,4 @@ textarea {
     width: 130px;
     text-align: right;
   }
-
-  /* Move icons to the side */
-  #contact-flex {
-    flex-direction: row;
-  }
-  /* Make icons vertical */
-  #contact-icons {
-    flex-direction: column;
-  }
 }
