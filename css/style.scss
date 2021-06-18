@@ -9,7 +9,7 @@ $border-colour: #d3d3d3ff;
 $text-colour: #ffffffff;
 
 /* Import Fonts from Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400;500;600;700");
 
 /* General Heading Styling */
 /* Name in Heading */
@@ -24,12 +24,12 @@ h1 {
 h2,
 h3,
 h4 {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Amiri", Georgia, serif;
   text-align: center;
 }
 /* General Anchor Styling (particularly for inline links and link buttons) */
 a {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "Amiri", Georgia, serif;
   text-decoration: none;
 }
 a:hover {
@@ -226,16 +226,6 @@ figure:hover {
   margin: auto;
 }
 
-/* Feature Heading */
-.feature-heading {
-  text-align: center;
-}
-/* Feature Section */
-#homepage-feature {
-  a {
-    margin: auto;
-  }
-}
 /* Article styling */
 article {
   width: 80%;
@@ -395,14 +385,5 @@ textarea {
     display: inline-block;
     width: 130px;
     text-align: right;
-  }
-
-  /* Move icons to the side */
-  #contact-flex {
-    flex-direction: row;
-  }
-  /* Make icons vertical */
-  #contact-icons {
-    flex-direction: column;
   }
 }
